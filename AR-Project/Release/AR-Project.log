@@ -1,0 +1,27 @@
+﻿Build started 30.6.2014 16:15:11.
+     1>Project "C:\Users\EfeB\documents\visual studio 2012\Projects\AR-Project\AR-Project\AR-Project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include" /ID:\OpenCV242\opencv\build\include /ID:\OpenCV242\opencv\build\include\opencv /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D "WIN32" /D NDEBUG /D _CONSOLE /D "_CRT_SECURE_NO_WARNINGS" /D "_UNICODE" /D "UNICODE" /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.0\Include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\glfw/glfw3.h(92) : see previous definition of 'APIENTRY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\math.h(631): warning C4005: 'M_PI' : macro redefinition
+                 c:\users\efeb\documents\visual studio 2012\projects\ar-project\ar-project\DrawPrimitives.h(25) : see previous definition of 'M_PI'
+     1>c:\users\efeb\documents\visual studio 2012\projects\ar-project\ar-project\MarkerTracker.h(11): warning C4099: 'CvMemStorage' : type name first seen using 'struct' now seen using 'class'
+                 D:\OpenCV242\opencv\build\include\opencv2/core/types_c.h(1278) : see declaration of 'CvMemStorage'
+     1>main.cpp(201): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(264): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(193): warning C4101: 'resultTransposedMatrix' : unreferenced local variable
+     1>main.cpp(590): warning C4101: 'resultMatrix' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\EfeB\documents\visual studio 2012\Projects\AR-Project\Release\AR-Project.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib" /LIBPATH:D:\OpenCV242\opencv\build\x86\vc10\lib opencv_core242.lib opencv_imgproc242.lib opencv_highgui242.lib opencv_ml242.lib opencv_video242.lib opencv_features2d242.lib opencv_calib3d242.lib opencv_objdetect242.lib opencv_contrib242.lib opencv_legacy242.lib opencv_flann242.lib opengl32.lib glu32.lib glut32.lib glfw3.lib glfw3dll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\EfeB\documents\visual studio 2012\Projects\AR-Project\Release\AR-Project.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\EfeB\documents\visual studio 2012\Projects\AR-Project\Release\AR-Project.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Release\MarkerTracker.obj
+         Release\PoseEstimation.obj
+         Generating code
+         Finished generating code
+         AR-Project.vcxproj -> C:\Users\EfeB\documents\visual studio 2012\Projects\AR-Project\Release\AR-Project.exe
+     1>Done Building Project "C:\Users\EfeB\documents\visual studio 2012\Projects\AR-Project\AR-Project\AR-Project.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.72
